@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Codificador de texto</title>
+</head>
+
+<body>
+    <header class="cabeçalho">
+            <img src="./imagens/logo_alura.png" alt="logo do alura" class="img_alura">
+            <h1 class="info_cabecalho"> (!) Digite apenas letras minúsculas e sem acento.</h1>
+    </header>
+        <main class="conteudo_main">
+            <section class="conteudo_entrada_section">
+                <div class="conteudo_entrada_div">
+                    <img src="/imagens/fundo_sombra.jpg" alt="imagem da personagem sombra" class="imagem_fundo_entrada">
+                    <textarea placeholder="Digite um texto" onclick="campo_entrada()" id="textArea_entrada" class="campo_entrada"></textarea>
+                </div>
+                <button id="criptografar" onclick="criptografarTexto()" class="botao">Criptografar</button>
+                <button id="descriptografar" onclick= "descriptografarTexto()" class="botao">Descriptografar</button>
+            </section>
+            <section class="conteudo_saida_section">
+                <div class="conteudo_saida_div">
+                    <textarea id="textArea_Saida" class="campo_saida"></textarea>
+                </div>
+                <button id="copiar" onclick="copiarTexto()" class="botao_copiar">Copiar</button>
+            </section>
+        </main>
+    <script src="script.js" defer></script>
+    <footer class="rodape">
+        <h1 class="rodape_texto">Feito por Wanderson Luiz S.Soares, estudante de programação e fã de overwatch em 26/02/2024 como tema, um jogo da empresa, Activision Blizzard.</h1>
+    </footer>
+</body>
+
+</html>

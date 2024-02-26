@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-image: url(/imagens/fundo_caveira.jfif);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.cabeçalho{
+    height: 70px;
+    display: flex;
+    align-items: end;
+}
+.info_cabecalho{
+    color: white;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+.img_alura{
+    height: 70px;
+
+}
+.conteudo_main{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    box-sizing: border-box;
+}
+.conteudo_entrada_section{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 50%;
+    height: 100%;
+    gap: 4%;
+    box-sizing: border-box;
+}
+.conteudo_entrada_div{  
+
+}
+.imagem_fundo_entrada{
+    height: 100%;
+    width: 100%;
+}
+
+.campo_entrada{
+    position: absolute;
+    top: 18%;
+    left: 9%;
+    width: 35%;
+    height: 44%;
+    background: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    resize: none;
+}
+.botao{
+    font-size: 20px;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: purple;
+    background-color: white;
+    height: 30px;
+    border-radius: 30px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: purple;
+    color: white;
+    transform: scale(1.2);
+}
+
+.conteudo_saida_section{
+    margin: 5%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.conteudo_saida_div{
+    height: 100%;
+}
+.campo_saida{
+    background: fixed;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    border: 1px solid white;
+    box-shadow: -10px 15px black;
+    resize: none;
+}
+.botao_copiar{
+    font-size: 20px;
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 30px;
+    background-color: white;
+    color: purple;
+    border-radius: 30px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao_copiar:hover{
+    background-color: purple;
+    color: white;
+    transform: scale(1.2);
+}
+.rodape{
+    background-color: purple;
+    color: white;
+}
